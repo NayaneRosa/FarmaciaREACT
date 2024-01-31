@@ -74,12 +74,11 @@ return (
             placeholder="Nome"
             name='nome'
             className="border-2 border-slate-700 rounded p-2"
-            value={categoria.nome}
             onChange={(e: ChangeEvent<HTMLInputElement>) => atualizarEstado(e)}
         />
         </div>
         <button
-            className="rounded text-slate-100 bg-indigo-500 hover:bg-indigo-800 w-1/2 py-2 mx-auto block"
+            className="rounded text-slate-100 bg-[#b51c85] hover:bg-indigo-100 w-1/2 py-2 mx-auto block"
             type="submit">
             {id === undefined ? 'Cadastrar' : 'Editar'}
         </button>
